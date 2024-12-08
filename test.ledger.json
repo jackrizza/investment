@@ -1,0 +1,44 @@
+{
+    "accounts" : {
+        "etrade" : {
+            "account_type" : "Brokerage",
+            "total_holdings" : 10000.00
+        },
+        "robinhood" : {
+            "account_type" : "Brokerage",
+            "total_holdings" : 10000.00
+        }
+    },
+    "trades" : {
+        "etrade" : {
+            "all" : [
+                {
+                    "uid" : "1234",
+                    "symbol" : "AAPL",
+                    "placed" : "2018-01-01",
+                    "details" : {
+                        "Stock" : {
+                            "quantity" : 100,
+                            "price" : 100.00
+                        }
+                    }
+                }
+            ]
+        },
+        "robinhood" : {
+            "all" : [
+                {
+                    "uid" : "5678",
+                    "symbol" : "AAPL",
+                    "placed" : "2018-01-01",
+                    "details" : {
+                        "Stock" : {
+                            "quantity" : 100,
+                            "price" : 100.00
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
